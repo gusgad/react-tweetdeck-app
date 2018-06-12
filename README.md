@@ -8,7 +8,7 @@ Current limitations:
 
 ## How to run
 
-Note: before running the app, you may want to use the 'REDUX_DEVTOOLS' and 'REDUX_DEVTOOLS'. If so, please, uncomment the line 18 in `store.js`.
+Note: before running the app, you may want to use the 'REACT_DEVTOOLS' and 'REDUX_DEVTOOLS'. If so, please, uncomment the line 18 in `store.js`.
 
 ```bash
 # Install dependencies
