@@ -1,2 +1,5 @@
 export const FETCH_POSTS = 'FETCH_POSTS';
-export const NEW_POST = 'NEW_POST';
+export const FETCH_COMMENTS = 'FETCH_COMMENTS';
+export const COLLAPSE_OPEN_POST = 'COLLAPSE_OPEN_POST';
+export const SEARCH_POSTS = 'SEARCH_POSTS';
+export const RESET_OPEN_POST_IND = 'RESET_OPEN_POST_IND';

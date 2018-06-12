@@ -1,33 +1,14 @@
-.App {
-  width: 90%;
-  margin: auto;
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(54, 54, 54, 0.3);
+	background-color: rgb(138, 138, 138);
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+::-webkit-scrollbar {
+	width: 12px;
+	background-color: rgb(196, 196, 196);
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar-thumb {
+	border-radius: 2px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: rgb(100, 100, 100);
 }

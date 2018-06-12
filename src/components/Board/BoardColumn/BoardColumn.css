@@ -1,0 +1,65 @@
+.BoardColumn {
+    min-width: 225px;
+    width: 225px;
+    height: 100%;
+    padding: 0 5px 10px 5px;
+    background-color: #333333;
+    border-radius: 5px;
+    transition: 0.3s all ease-out;
+}
+
+.BoardColumn:hover {
+    transform: translateY(-10px);
+}
+
+.BoardColumn .BoardColumn-header {
+    padding: 6px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: move;
+}
+
+.BoardColumn .BoardColumn-header i {
+    margin-right: 5px;
+    color: #FFFFFF;
+}
+
+.BoardColumn .BoardColumn-header h4 {
+    width: 60%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.BoardColumn .BoardColumn-header span {
+    cursor: pointer;
+}
+
+.BoardColumn .BoardColumn-header span i {
+    font-size: 1.5rem;
+}
+
+.BoardColumn .Items {
+    overflow-y: scroll;
+}
+
+.BoardColumn .Items.feed {
+    height: 88%;
+}
+
+.BoardColumn .Items .Items-not-found {
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+}
+
+.BoardColumn .Items.comments {
+    height: 95%;
+}

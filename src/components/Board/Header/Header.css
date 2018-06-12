@@ -1,0 +1,29 @@
+.Header {
+    width: 100%;
+    height: 10%;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Header-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: #657786;
+}
+
+.Header-logo img {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+}
+
+.Header-logo h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.6rem;
+    font-weight: 500;
+    color: #FFFFFF;
+}

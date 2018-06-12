@@ -1,0 +1,33 @@
+.ItemSearch {
+    width: 100%;
+    padding: 3% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ItemSearch h3 {
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.ItemSearch form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ItemSearch form input {
+    width: 80%;
+    height: 30px;
+    margin: 0 auto;
+    padding: 5px;
+    border-style: none;
+    border-radius: 3px;
+}
